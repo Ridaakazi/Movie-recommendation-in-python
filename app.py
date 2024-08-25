@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
 # Load the dataset
-movies_data = pd.read_csv('archive/movies_metadata.csv', low_memory=False)
+movies_data = pd.read_csv('movies_metadata.csv', low_memory=False)
 
 # Print first 3 rows
 # print(movies_data.head(3))
